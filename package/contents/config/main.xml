@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="command" type="String">
+      <label>Application to run</label>
+      <default>kweather</default>
+    </entry>
+    <entry name="allowInput" type="Bool">
+      <label>Allow input events to be passed to the application on the wallpaper</label>
+      <default>true</default>
+    </entry>
+    <entry name="unscaled" type="Bool">
+      <label>Force the application to use device pixel units rather than logical units</label>
+      <default>false</default>
+    </entry>
+    <entry name="socket" type="String">
+      <label>Wayland socket name override</label>
+      <default></default>
+    </entry>
+    <entry name="fps" type="Int">
+      <label>FPS limit</label>
+      <default>0</default>
+    </entry>
+    <entry name="preferCompact" type="Bool">
+      <label>Use compact representation on the desktop</label>
+      <default>false</default>
+    </entry>
+  </group>
+
+</kcfg>

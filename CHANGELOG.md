@@ -1,0 +1,769 @@
+# Changelog
+
+## [6.8.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.8.0...v6.8.1) (2026-02-14)
+
+
+### Bug Fixes
+
+* limit corner radius to background size ([7a64b3b](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7a64b3b25ff833649197004c562bb04581b85f57))
+* run click action on keyboard shortcut activation ([54f408b](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/54f408bcd506cad25ce7c7c2a9d39cc601f8029f))
+* widget background clipping not working with foreground shadow ([4e693de](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4e693de46fe0604465b4767af44018c464f9bdc4))
+
+## [6.8.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.7.0...v6.8.0) (2026-02-11)
+
+
+### Features
+
+* add Hungarian translation ([#463](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/463)) ([3335f59](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3335f59def9ccf9cc3ca38ff2ecd5c075600cbc9))
+* update Catalan translation ([29924bf](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/29924bf950382f7dd4763b190e896faaf2a57dbf))
+* update Polish translation ([72893de](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/72893deab9ab728e32e53360040a7ca624d9b537))
+
+## [6.7.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.6.0...v6.7.0) (2026-02-05)
+
+
+### Features
+
+* update Catalan translation ([b1349a4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b1349a4890abd83d385cbb6a5b18d23e86814e35))
+
+
+### Bug Fixes
+
+* plasmashell crash when monitors are disconnected ([06e0362](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/06e0362fd47f5e489d1c4ce7cd29b90c44508d4f))
+
+## [6.6.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.5.0...v6.6.0) (2026-01-30)
+
+
+### Features
+
+* clip widgets to their custom background ([463b3be](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/463b3be51a510f0de28ad5ea499127287669a9fe))
+* update Catalan translation ([6bd4f86](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6bd4f868da13eb92889939b45f1022d02745b697))
+* update Chinese translation ([#446](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/446)) ([8839452](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/88394523bff79a49f80f9728f09ae1bd9ae9b58e))
+
+
+### Bug Fixes
+
+* broken island shadow after component split ([3a4ae54](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3a4ae54211c1befb14ab794bb8c5594cdebbd622))
+* islands not being recreated when hidden widgets reappear ([6268e4d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6268e4ded19720bd9051e7fbd5fdf39b4538770e))
+* only force even widget spacing if islands feature is used ([79b6ed8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/79b6ed89c997a2c21b8ad7ee74fe04102dc7e050))
+
+## [6.5.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.4.0...v6.5.0) (2026-01-20)
+
+
+### Features
+
+* update Dutch translation ([#441](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/441)) ([e4492ac](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/e4492acbc4aabaa226cfa4a5b1919bd88f15dc3c))
+* update Polish translation ([2b2159c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/2b2159c67f127aeb1ff8f01c7cfd0ad06b109949))
+
+
+### Bug Fixes
+
+* Appearance/Override tabs not loading with Qt older than 6.10 ([c7b7c42](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c7b7c42d7bb033b30f26b878b965e2796403edfa))
+
+## [6.4.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.3.0...v6.4.0) (2026-01-17)
+
+
+### Features
+
+* allow to override widget/tray icon opacity ([037a379](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/037a379477a51461564b16ee12ad564415c9591c))
+* font customization ([c1ae15a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c1ae15a6860d3348ca34e3d215f8217e8423697a))
+
+## [6.3.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.2.0...v6.3.0) (2026-01-10)
+
+
+### Features
+
+* replace system tray icon by matching the item title or name ([953b309](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/953b309408f59d48610577d60186f29122b82d8d))
+* update Polish translation ([89701a4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/89701a406c8951898117cc15f9a85e583b732bec))
+
+
+### Bug Fixes
+
+* prevent some property type errors ([f8be624](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/f8be624bc42644dc19cb1235a3b7795672ebb698))
+
+## [6.2.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.1.0...v6.2.0) (2026-01-03)
+
+
+### Features
+
+* update Catalan translation ([54dd177](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/54dd1776df76da86930a6f9a65089513e14b29bb))
+* update Polish translation ([ed23b3d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ed23b3d1827263ea449e3190ef6c02f563edc283))
+* update Polish translation ([9bc04ce](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9bc04ceb09691ddf1db4876f364b0d56d30007a6))
+
+
+### Bug Fixes
+
+* systemTrayIconUserReplacements JSON.parse: Parse error ([cfb2942](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/cfb29428cad77b3e9cddc968a9b41451622a8d8e))
+
+## [6.1.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.0.0...v6.1.0) (2025-12-29)
+
+
+### Features
+
+* add Finnish translation ([fc31140](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/fc31140f7d9473c9cb8de3c29925c9f94a2f7839))
+* system tray application status (StatusNotifier) icons replacement ([0445228](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/04452284d6cb208d1133c2b307665d46b9a191b8))
+
+## [6.0.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.7.0...v6.0.0) (2025-12-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* Fix or overrides for individual system tray widgets will need to be reconfigured again after this update. App tray icons, (e.g Spotify) and widgets outside the system tray are not affected by this change.
+
+### Features
+
+* update Catalan translation ([4137996](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/413799651108a3b07fcbcb86963776f889d84ef2))
+* update Polish translation ([1a89a8b](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/1a89a8b42acdb6aeba9497bf3e9460a1316954db))
+
+
+### Bug Fixes
+
+* system tray wiget matching not working with regular plasma widgets ([3a63635](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3a636354b47e096705ccbfd89f541e5788c17ef3))
+
+## [5.7.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.6.0...v5.7.0) (2025-12-06)
+
+
+### Features
+
+* make wide system tray expand button/arrow opt-in ([0a959b6](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/0a959b686bf5a364a08e43d0f031c73fccfa1b1d))
+
+## [5.6.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.5.0...v5.6.0) (2025-11-26)
+
+
+### Features
+
+* update Catalan translation ([8acae8c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/8acae8c3c35b9749e7fe5570317cbc49e8ca600a))
+* update Dutch translation ([#394](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/394)) ([2a451b6](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/2a451b6c56653c228fa4382ff5c3c94a44c4ec2c))
+* update Polish translation ([1bec4c4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/1bec4c46f20d548f324fd63974b94d3f9f89d157))
+
+## [5.5.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.4.0...v5.5.0) (2025-11-24)
+
+
+### Features
+
+* allow to hide any widget from the panel ([0b81c91](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/0b81c911a021d296beeb1548a07042f967414250))
+* configure from any widget is enabled by default ([7d797f9](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7d797f9a38f3fc2b8a7ec69aec85e2173daed043))
+* option to remove 'Configure Panel Colorizer' option from other widget's context menu ([b81b371](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b81b371b99cbc0ce90154e9490e5ccb41b7370bd))
+* update Catalan translation ([#383](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/383)) ([cbabeb8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/cbabeb8571a704e07b69dcab5e759616aa1bb8f2))
+
+
+### Bug Fixes
+
+* configureAction missing when a widget is added to panel ([181bba5](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/181bba53b48d219e1b71619cf858d31ad0a697b7))
+* configureAction reference error ([e18ea57](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/e18ea57559aefa9fc945a417dbd2e3fe7e77df0e))
+
+## [5.4.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.3.0...v5.4.0) (2025-11-13)
+
+
+### Features
+
+* updated Dutch translation ([#376](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/376)) ([c731959](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c73195903097050ba2bf0b92b5fad1cb01e0a42f))
+* updated Polish translation ([26a574f](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/26a574f312aebef1cab14c5eff5783646a18f8e7))
+
+## [5.3.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.2.1...v5.3.0) (2025-11-12)
+
+
+### Features
+
+* add note about needed plasma restart to restore widget margins ([5e3a7cf](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/5e3a7cfee5c1515ca2212f88aab948e9394508c0))
+* allow localization of more strings ([d0c0198](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/d0c019899a8b7f9e2808cf0e81e0d20a8d6bd773))
+* remove panel radius/border on screen edges when panel defloats ([9b2e352](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9b2e352a246c6f4113bf02298e248464c667e301))
+
+## [5.2.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.2.0...v5.2.1) (2025-10-27)
+
+
+### Bug Fixes
+
+* undefined property log spam ([908c802](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/908c802bd4c0ed8bb7bc62ee2897ce38625f21b2))
+
+## [5.2.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.1.0...v5.2.0) (2025-10-25)
+
+
+### Features
+
+* option to anchor content to edges when panel de-floats ([#349](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/349)) ([24f687a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/24f687a07c5a289e51a50a4bb9f8aefa3eb2fdf0))
+
+
+### Bug Fixes
+
+* custom background not filling de-floated floating panel ([#349](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/349)) ([3fbdf74](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3fbdf7425c0fd5646073a28f8a0b48ccce2623f5))
+* improve rendering between widgets in islands ([#64](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/64)) ([cc72c19](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/cc72c19ce38a406a7be9a678fb2d19dff22dd856))
+
+## [5.1.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.0.1...v5.1.0) (2025-10-16)
+
+
+### Features
+
+* add note about padding not working depending on panel orientation ([751a54d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/751a54deaf31ae8fc2c530118e682e5768db17d2))
+* add visual hints to some settings and improve descriptions ([dc197fd](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/dc197fd69c9a4dc705854f53adee5ee5c83aadd7))
+
+
+### Bug Fixes
+
+* empty widgets list ([563fb96](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/563fb966a7383571c2811aef478cfa357ee52066))
+
+## [5.0.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v5.0.0...v5.0.1) (2025-09-16)
+
+
+### Bug Fixes
+
+* Fix some log spam ([132e655](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/132e6557705dc0bd9dfb330edad876c1c7f3364b))
+* remove widget status label (testing leftover) ([4a8d489](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4a8d489ff86f883d3af7918f2dc37cc60f63cbbd))
+* widget right margin not working in vertical panels ([33c60a0](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/33c60a0b5329e6ae7ca2fc88dc77e54a9ac6e460))
+
+## [5.0.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v4.3.2...v5.0.0) (2025-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* If you are forcing floating dialogs (applets) you will need to update your settings/presets to allow floating applets changes in plasma 6.4.0 and later **Appearance** > **Floating applets** > enable (check) allow changes
+
+### Bug Fixes
+
+* broken panel auto hide and window sizes not updating with panel ([1247164](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/124716468c67c10767c81c0c9811084c6bcddd7b))
+* preset settings not saving sometimes ([af283ff](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/af283ffe5bb68aa4376c63280f3ffe53ba959b72))
+* require allowing floating applets changes 6.4.0 and later ([58b2196](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/58b219632c6e8f799c8bb5283ae084e9b5de89cd))
+* stockPanelSettings.visible.value not applying on Plasma start ([0c097bc](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/0c097bc29c25a18463382c517b6beb79014a51fa))
+
+## [4.3.2](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v4.3.1...v4.3.2) (2025-06-20)
+
+
+### Bug Fixes
+
+* check empty callback in DBusFallBack ([0746b25](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/0746b25cdf2e9a4420a8c4711e35166d14877115))
+* missing quotes in translation ([373b251](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/373b251d9a0a28e1ff43095d126d1c8ea2c39721))
+
+## [4.3.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v4.3.0...v4.3.1) (2025-06-07)
+
+
+### Bug Fixes
+
+* remove version check logging ([c29295d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c29295da0a0773abbe36ea1cd7301a547c81b2a8))
+
+## [4.3.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v4.2.0...v4.3.0) (2025-06-05)
+
+
+### Features
+
+* improve Presets & Appearance tab loading speed and misc UI/UX tweaks ([9dfa8b5](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9dfa8b51b890082bb5cedf451dacfbef1ea2ec95))
+* warn about running old version after widget update ([5153555](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/5153555bdabf6e81d564df46479488cc81da2bc1))
+
+
+### Bug Fixes
+
+* color set option not changing colors ([b4fec65](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b4fec658748edbeb55f191e51bcc12b0fe031f6b))
+* system tray expanded state detection on Plasma 6.4 ([6338acf](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6338acf2c3e2e25ce34971b19a8e69f6a1b59be7))
+
+## [4.2.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v4.1.0...v4.2.0) (2025-05-24)
+
+
+### Features
+
+* add restore default button to most tabs ([8ef35f8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/8ef35f84f2d5a157b81cc5575da27cff529ef557))
+
+
+### Bug Fixes
+
+* default configuration not loading on fresh installs ([9662dfb](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9662dfbe36769be2d0db881d9beae7167f12f399))
+* default text color not updating when color scheme changes ([504fd24](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/504fd2451d6217b37b6dc01cbb574d9c696002b3))
+* global overrides bad format update ([c335264](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c335264d91a99be260e9b4491183966b7af136f0))
+
+## [4.1.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v4.0.0...v4.1.0) (2025-05-24)
+
+
+### Features
+
+* improve some presets ([86b5aa7](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/86b5aa7b4b67c622babe00de3ff61851d7426c25))
+* update built-in presets to current config format ([b131408](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b131408971ec6eadf9c3b0e2124981b9a317a954))
+
+
+### Bug Fixes
+
+* preset without overrides not loading ([4a2953c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4a2953c9e21c5e003bfe15c80fa8840855be9d7a))
+
+## [4.0.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v3.0.1...v4.0.0) (2025-05-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* the configuration and presets made or updated using this version will be no longer compatible with older versions, create a backup of `$HOME/.config/panel-colorizer/` directory just in case you want to downgrade later
+* group native background, opacity, shadow and floatingDialogs configuration
+* hover, expanded, needsAttention and busy customization
+
+### Features
+
+* group native background, opacity, shadow and floatingDialogs configuration ([c4e6f78](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c4e6f7808ebba5e423b7bcd29406b53c941433a9))
+* hover, expanded, needsAttention and busy customization ([4011ae2](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4011ae2752bb006075318a0d20759cdbd53816d4))
+* update existing configuration to new format ([5d2b281](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/5d2b281d69c1102f8f0a1da54e6e6982a61097e2))
+
+
+### Bug Fixes
+
+* save presets without formatting to avoid mysterious echo command bug ([ef6d875](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ef6d87566ab19d796b6052449bcba122e3a0e4ec))
+* tray icons sometimes using wrong color ([aa53388](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/aa533880db2c9b74e98bef255611c47a628d5cdd))
+
+## [3.0.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v3.0.0...v3.0.1) (2025-05-14)
+
+
+### Bug Fixes
+
+* unified widgets right edge and system tray gaps ([eb9ec0d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/eb9ec0dada2d2dcd6852da405d92c8f53ad19dfd))
+
+## [3.0.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.6.1...v3.0.0) (2025-05-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* If you have "Active only" enabled in auto-loading tab you will need to enable it again.
+
+### Features
+
+* add option to filter windows per screen and KWin's top window fallback ([f633405](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/f633405da975e338730d9cccdf1282e93ce7d171))
+* current activity preset auto-loading condition ([21ed66a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/21ed66a075883daa1c45abdafc33c5a0a94f062e))
+* remove native shadow from built-in presets that don't need it ([e4ec4ae](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/e4ec4aea9e840202d2509b212dea575dc6a31df1))
+* set screen of panel ([9950a51](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9950a51834abc6cc4af9e79539548b0f7943643b))
+
+
+### Bug Fixes
+
+* update unfied background areas on widgets HiddenStatus ([753fb9f](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/753fb9f6b5fb4d9a26716fdc2e170b2ff8755946))
+
+## [2.6.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.6.0...v2.6.1) (2025-05-02)
+
+
+### Bug Fixes
+
+* creating a new preset may create an empty directory ([9cc5c4c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9cc5c4c1254f751dfec35b525e247b34bd075aae))
+* creation of more than one panel background ([d005284](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/d0052844e3b7fe03f28db3ae67a6782de060f511))
+* set AnimatedImage layer.live on onPlayingChanged ([9dc76be](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9dc76be5794ec0348dda7c6d3569bb0d92c801f5))
+* set AnimatedImage layer.live on onPlayingChanged ([a4ffc64](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/a4ffc64474f5d3353b65b47dda7f64ab353fb10a))
+
+## [2.6.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.5.0...v2.6.0) (2025-04-23)
+
+
+### Features
+
+* add option to use a gradient as background ([b93e0ec](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b93e0ec643c1ab8290e4521d6234c0e51f0058f2))
+* add option to use an image as background ([749ca04](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/749ca04127d800b93b331d03d09c976eea99c0b4))
+
+
+### Bug Fixes
+
+* config arrays malformed as objects ([7665734](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7665734272bb9e1dfeca3232765f1d8ba9237445))
+* oops Qt.size not Qt.rect smh ([8940d4c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/8940d4c516028f0752fec6c6f3f75b05daa256b5))
+* override configs being converted to array ([f3e72e4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/f3e72e49aef9c0df43677ccdcb04f0659ea7312d))
+
+
+### Performance Improvements
+
+* images: async load, sourceSize & remove source on disabled ([e29b4a9](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/e29b4a9d887352b53ecd8d6fc175343e0c701352))
+
+## [2.5.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.4.3...v2.5.0) (2025-04-19)
+
+
+### Features
+
+* allow floating point values in custom borders ([cb54e0e](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/cb54e0e21168671ac1222162ca0bd4dbd6e4b470))
+
+
+### Bug Fixes
+
+* add lib64 to QML_IMPORT_PATH for distributions that split lib/lib64 ([0cc3157](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/0cc3157f50551997d523dd7967194b61d3953410))
+* secondary custom border offset and radius ([2fe96a5](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/2fe96a588c5c274634df189137fc805fd79fa509))
+* unified widgets not saving sometimes ([1f8ebf5](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/1f8ebf556ca0ba02926d473e1fe0e22bea6696d8))
+
+## [2.4.3](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.4.2...v2.4.3) (2025-04-15)
+
+
+### Bug Fixes
+
+* stuck custom blur/contrast region after removing widget ([48c69d7](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/48c69d710cc0373600688b7efa3f13c136a37516))
+
+## [2.4.2](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.4.1...v2.4.2) (2025-04-06)
+
+
+### Bug Fixes
+
+* broken coloring in Plasma 6.3.4 ([73f69b3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/73f69b3211b9d9d2e94aae9d49e7b278b244c999))
+
+## [2.4.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.4.0...v2.4.1) (2025-03-16)
+
+
+### Bug Fixes
+
+* revert problematic content clipping to background ([74dedae](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/74dedae28eb67d5211de82686e0a9b19287b0cba))
+
+## [2.4.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.3.1...v2.4.0) (2025-03-16)
+
+
+### Features
+
+* add option to disable native panel background shadow ([444311f](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/444311fc26c04310b065539276f69941d30b0f2c))
+* flash small rectangle for foreground color update in debug mode ([216fd13](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/216fd13e2143d85ba2d62f873e3b4116ebd88c8c))
+* make custom background clip widget content ([7debc85](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7debc8515582526875df2fae6e3e9f4a46744a09))
+
+
+### Bug Fixes
+
+* blur mask sometimes not updating due to very frequent events ([b4ab72d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b4ab72dfb30e5c1634a1d460549de87131a0d402))
+* borders not merging for unified widgets ([6ca187b](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6ca187b787edf3323747b021eec55ca3853b0227))
+* missing gdbus_get_signal.sh executable permission for manual install.sh ([97259be](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/97259be87028c9a4f5a79f3453e78ec2e5221a07))
+* radious gap between primary and secondary border ([9ef81be](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9ef81be34ac7b2a42ed3d689d89fbd6b79ac31c8))
+* widget click popup not loading presets properly ([08134a8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/08134a8e71ebb57e472d1e66299ca1fadc5dd063))
+
+
+### Reverts
+
+* "build: change plugin install from system-wide to widget directory" ([6bd8c23](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6bd8c23ac050d32a1150df727bcfcd26c087b8c0))
+
+## [2.3.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.3.0...v2.3.1) (2025-03-07)
+
+
+### Bug Fixes
+
+* don't leak dbus replies ([f8cb1c1](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/f8cb1c1660798d9df8670a24edc0376d0742c984))
+
+
+### Miscellaneous Chores
+
+* release 2.3.1 ([4ef9ea2](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4ef9ea279e39a85546edb881cc0f92d1bc878fdf))
+
+## [2.3.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.2.0...v2.3.0) (2025-02-08)
+
+
+### Features
+
+* secondary border ([27eecdf](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/27eecdfd6e2dfac83a1ce53c952f147e37ddc288))
+
+
+### Bug Fixes
+
+* update workaround for upstream panel length bug ([84bcb0b](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/84bcb0ba72c06d6f4851a9777f3899f1ff61507a))
+
+## [2.2.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.1.0...v2.2.0) (2025-02-01)
+
+
+### Features
+
+* option to show a grid behind the panel while configuring ([fedefd9](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/fedefd9b7cdd99c407767ed08a18e0102c075471))
+* show spinning indicator on the panel being configured ([b4b8ca4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b4b8ca474085c871fee0726f408bcabd20ba301b))
+
+
+### Bug Fixes
+
+* downgrade a bunch error messages ([e8c526a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/e8c526af3b55e6ad3537b4a3d9f38cf1f1e86cc5))
+* fallback to gdbus for plasma 6.1 ([c699660](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c699660eaff4a6c2f3cd621f8daec5a9844e98d2))
+* floating panel auto-loading condition not working after closing a window ([83b2e58](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/83b2e58c10997a924c95a15bb3809bf4c8b7c5e5))
+* mask off by a couple of pixels when panel de-floats ([f266ab2](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/f266ab2165642612473d3a71fe0e7951f9c7af96))
+* re-apply customization after changing order of widgets ([b61d14e](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b61d14e8c9a925c20565225832189ed571a2dd40))
+* target current panel by id when changing stock panel settings ([7cf87cb](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7cf87cbca56b283d41a751fa910024828f355f01))
+* updatePanelMask QPainter warnings log spam caused by hidden widgets ([fbd55a3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/fbd55a3d8cf692d1ee2900f448e8bfe227352d8e))
+* use old mask offset for plasma 6.1.x or lower ([495578c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/495578c8e1a3bf7c25fdd7e3acef1381b219f098))
+* widget not hiding (main) ([adb3219](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/adb32194b3f0931f3401bef6f4de43753b331e23))
+* widget not hiding once again (main) ([19639a3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/19639a3e4567bd26035e0d0c765893f6cb1ea63f))
+* X11 screen flicker and window resizing with panel ([56c2a4a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/56c2a4ac7a766bc63c3c6f76c45bdebbaa0b13ea))
+
+## [2.1.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v2.0.0...v2.1.0) (2025-01-26)
+
+
+### Features
+
+* change default spacing to 4 ([03090e8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/03090e876d14a335d4fe6ce600119c24e0e74f34))
+* option to animate propery changes ([7497524](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7497524a7011c82131f6f7c42dd1c5f3b9879565))
+* option to force always floating dialogs ([6f435ae](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6f435ae9e58c5e1ec8b95cb6a95596f8e99751d8))
+* update and add new presets ([b52b82e](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b52b82e91be6740dadf87e4ad2ac5a8eaf45f814))
+
+
+### Bug Fixes
+
+* panel opacity sometimes not applying ([c7bae60](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c7bae60cca7bb72bf6f949f621b2b75610c4ea57))
+* update blur mask after changing radius ([b6d505f](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b6d505fb9292192bd6fb1202786aba7c23510f39))
+
+## [2.0.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v1.2.0...v2.0.0) (2025-01-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Force text/icons, Unified background, Preset/global overrides now use id to address multiple instances of the same widget separately and should be reconfigured. Also widget ids are unique per panel so the setting needs to be recreated and mantained per panel
+
+### Features
+
+* "At least one window is shown" preset auto-loading condition ([d930925](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/d9309259b34fd91a5b19abc756168368e380f285))
+* "Fullscreen window" preset auto-loading condition ([eba4a14](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/eba4a14364de61f924e05be83773d56f58ed3c94))
+* configure action on Panel Colorizer widget click ([b2c4418](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b2c4418bf82a1585ee47e57191119814a6a78a7e))
+* D-Bus method & signal to edit configuration properties ([6bf4814](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6bf4814becfa6ec8661965e4d499dc766ccd59b5))
+* D-Bus signal to apply preset to all Panel Colorizer instances ([be3aba4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/be3aba43034bc2c962c1e9d06762a89638c5646f))
+* don't store text and icons in presets ([69827e7](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/69827e778ec681c20efa398b58114b5c0058760b))
+* enable the D-Bus service by default ([7b3c502](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7b3c50283e50ef94e31e09fae2f9a08070bc7423))
+* log errors when loading preset fails ([d97158d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/d97158da7611a0b9c4eb95991d2120062bae43b9))
+* register a D-Bus service per widget to apply presets ([b549534](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b5495341122b3538c391b6ae5bd4b996973ced8d))
+* show/hide panel "AKA toggle panel" ([3f70386](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3f703869920fac11b8e25feb748166f5bd17dd0c))
+* support per widget instance customization ([fc94f22](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/fc94f22eb63791e131a3a023eef4cf0aa8c17fed))
+
+
+### Bug Fixes
+
+* always apply alpha to avoid inheriting it from parent ([4151f6e](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4151f6e2d6e354993e2eb277f61b907e4150ec2f))
+* color set option not changing colors ([7a527ff](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7a527ff5ef9dfb8e7da05c2290553aa427514634))
+* disable click to edit built-in preset preview ([94a709c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/94a709cec9660dc6428bb65a645210d90362c2ca))
+* don't change the default text/icon color if disabled ([ec3bd10](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ec3bd105348d0e9d4a0940713351871cdfc9f577))
+* foreground color set option not changing colors ([2aee2d2](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/2aee2d28821e2348ae641cfb9d7af81477f05f00))
+* keep original color binding if fg color was never changed ([9cca3c7](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9cca3c70d638bdcae7bfc3016babebb7997e467e))
+* new global override format not saving ([cc80c59](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/cc80c593b3c47da2e54311b3d5eb779e8ff82eff))
+* overrides not working for plasmoids in system tray ([371eaf4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/371eaf40d65d900c8092ad285ea5cb9b97fa3257))
+* update windows geometry on config changes ([342fa50](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/342fa50aa0f375d0ee601119f42f1e1836dbdada))
+* use even spacing to avoid gaps if unified widgets feature is used ([10c3aa4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/10c3aa4345bcd2f7227db5b8ecd8657a4ada2ea8))
+
+## [1.2.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v1.1.0...v1.2.0) (2024-11-10)
+
+
+### Features
+
+* reword some settings messages ([57b61ba](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/57b61bacbd378cfe230f5a55197a1dc432aa341f))
+
+
+### Bug Fixes
+
+* override changes not saving ([7accd75](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7accd754370a2733c863172fe7d751f04c4f067f))
+
+## [1.1.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v1.0.1...v1.1.0) (2024-11-03)
+
+
+### Features
+
+* add current version and project urls to header ([ab7fa2c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ab7fa2c7934ee7cfaaf29146fc57314513b05d90))
+* add filter by active windows for maximized preset auto-loading ([c6dfe49](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c6dfe4918ade255162bbbfd706eca38f678aa09c))
+* allow configuring stock panel settings ([6de0278](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6de0278901d177c5611e5143664d91503c1e8b35))
+* allow disabling preset auto-loading ([20a77d0](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/20a77d042578ce37566c669d752e82e3e1fde069))
+* open widget configuration from right click menu on any widget ([e4c88d3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/e4c88d3ac22ade661ecbe46dfa4ad0d6358a63aa))
+* prompt to take preview screenshot after saving preset ([2bfe9c2](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/2bfe9c2109836069c55257da7f84e56b8e9af704))
+* reword some settings and update icons ([d5b4057](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/d5b4057e55732775fa8666d8be5551966d14d706))
+* show when the C++ plugin is not installed from widget settings ([9a1f7ea](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9a1f7ea6f9adc9a7e1a511855eb38aebd0b19d64))
+* update wording and  use more information messages ([7104389](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/710438998ba992b5b1c119c8dac45097a749eac8))
+
+
+### Bug Fixes
+
+* allow editing float spinbox manually ([3882199](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3882199ee6d3c727293c1bf3f9034c27c4346b52))
+* allow overriding custom background blur ([04c1bc8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/04c1bc8c437c260c09265cd40c345f4b11eaf13f))
+* disable regular border if custom border is enabled ([21ed741](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/21ed74167eee114f1cc5d47ece8dd6bc8fefb72c))
+* native background toggle ([9054b7a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9054b7a0730c776925104cf757955649923e1126))
+* Non-built-in presets incorrectly marked as built-in ([11f8e91](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/11f8e916d047a68b7afebf426d00b43f00eb2011))
+* remove unused panel foreground color ([ec2c56d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ec2c56d042d6c8d8c75af7fea5e2ecdf8a502ccc))
+* use correct type for default panel opacity ([1aa9029](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/1aa90295dd45e785d9b732de56a7aa978dd6ed2f))
+
+## [1.0.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v1.0.0...v1.0.1) (2024-10-22)
+
+
+### Bug Fixes
+
+* list presets from separate bash script to avoid default shell limitation ([244ec16](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/244ec1623011c2bf366c88310a784be0b6a46c7b))
+* temporary enable panel mask on geometry change to fix broken clickable area ([5b20412](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/5b20412ca2dca07456e763aac622d154524602d9))
+* update panel length on startup to fix shrank fit content panel ([91f3fa3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/91f3fa3249d084a252edb7f02b64dc068c3508b1))
+
+## [1.0.0](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v0.5.2...v1.0.0) (2024-10-17)
+
+
+### Features
+
+* add a way to detect existing custom background ([330edb1](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/330edb1f459cd9af5b0fa699c37a4bcd262ddca2))
+* add option to toggle debug mode ([5fa12b2](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/5fa12b25c827eb752b917c42a4d4189625f3dfe2))
+* Add some more built-in presets ([0dff660](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/0dff660d5c8ab48f0e0ddee623c5c494b6ef7af4)), closes [#54](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/54)
+* Allow applying multiple overrides to the same widget ([9e4c466](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9e4c4661b37c9a4223cb60239e4cb96c39c3f090))
+* allow disabling all or specific parts of panel/widget/tray options ([95bba20](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/95bba206ae052803260b3110617163e22a3c913d))
+* allow updating forced icon color ([e755a72](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/e755a72575381c82ac28ac5cea345395a003b242))
+* automatically unify widgets between start and end ([be7ce3a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/be7ce3ad96fffa9cd1a1538269880257254d96d1)), closes [#39](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/39)
+* bring back force icon color with support for non-symbolic icons ([10af807](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/10af807ce141250d14b671d0068b170bdf1351c2))
+* bring back foreground shadow ([3fd7fce](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3fd7fce9fbbee4371fe017b30352e4e0f2513232)), closes [#69](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/69)
+* bring back global disable ([ef0095f](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ef0095f10f1a346b05ae53f157c6d4a8793b17fd))
+* bring back preset autoloading ([383e8fa](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/383e8fab3d7891963dabca515947a132a100dff1))
+* bring back widget icon and hide options ([34f8828](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/34f8828dd5670632169918738a113bd6233d4f7d))
+* bring back widget/panel custom background blur ([4a5adac](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4a5adacb229d419eb7651574baaa38a05a7b9ba0)), closes [#72](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/72)
+* Built-in presets support ([63a08d3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/63a08d3dc4110ae4f8146881f5ea018742864670))
+* color refresh & expanded representation text color fix ([b11b66c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b11b66c84719fdb8506b8781f0dcef71dabfa51f))
+* custom widget/panel/tray item margin ([7b2d316](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7b2d31644f45c33fdeb1c65a52f86512a51d5e81))
+* expose the control of native panel visibility/opacity ([2ba52bd](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/2ba52bdc0eb7844b12225b1e1b1baebd82dcee30))
+* Fallback to global configuration for disabled override options ([6a2ede1](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6a2ede1c452d970580721e2fc15cdb6ed58df9d5)), closes [#70](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/70)
+* find custom panel background and proper panel fixed side margins ([663dcea](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/663dcea700c6a6099c06a3a0ff4e8a7ef22547ac))
+* follow the background color of parent elements ([cf38921](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/cf38921c58761f588e6ac2da66c73c5ab981fcf0))
+* hide color animation controls for now ([7306d3a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/7306d3a5d1824f5b6281a225e72ef0a5104597c8))
+* improve settings UI/UX ([a2f3e49](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/a2f3e49a233c350bcde23c91e6306e723da8796e))
+* keep track of widgets in panel and system tray ([a6d444f](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/a6d444f1929633f643701118d5eb310e05bad792))
+* make widget visible by default ([b1df52b](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/b1df52b324c9cdd7dbb3131437e8f6502447c936))
+* panel transparency and opacity ([32ac70b](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/32ac70b5663afc1a16da28aef6b4b75b3799d608))
+* per corner radius for background blur mask ([589629c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/589629ce8e84768c94b11e1a1a4aa194d4d24a82))
+* per widget blur override ([fc9e2a2](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/fc9e2a226d6b6d87119f428c0638a2eaef4da0ba))
+* per widget configuration override ([8d582c1](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/8d582c10c2f46f14e66077d8b9ccac4c8d8cc49f))
+* prepare for per-widget configuration ([6b9b554](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/6b9b5546d7de7ab31ad048921aa93a4bf38ae571))
+* presets revamp ([afd4ca8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/afd4ca8b25941540c12b3f1ce26f9ad1b813ae0e))
+* restore appearance when disabling panel/widget/tray tabs ([4a4c298](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4a4c29816a8925c154c8ed12bfb89096245d6c34))
+* spacing between widgets and padding around them ([433ae8d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/433ae8d2bb060f41f2ac22df1500b300bde49460))
+* split overrides and force icon/text color from presets ([c2fe8f8](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c2fe8f8447a8259557bd52b3dcb7fc41d76c1f35))
+* take colors from custom color list ([8a0a4c3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/8a0a4c36c74b278d9fca5f3f4b687792aa6a2168))
+* unified background areas ([ba5ed59](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ba5ed59bee859acbfa1847da19d112f372ee54f4))
+* Update unified background settings labels ([d5ddbce](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/d5ddbce615756465f182726f0c2977e517fc45e1))
+* use common components for background ([a3a8ab4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/a3a8ab416ce00d477ff463df0476557981f855c0))
+* User and per preset overrides ([a4ea938](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/a4ea938ce41777c4d8e5adc51bc2925d79d06e73))
+* wire colors from system color scheme logic & other stuff ([1f74dd6](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/1f74dd61919e04394c369caaf0db0c3f9db73927))
+
+
+### Bug Fixes
+
+* actually restore tray color and panel margin on disable ([801ec94](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/801ec94345a547962ae11a7cd097bf1cb03e9c51))
+* address multiple colorization issues ([55ae582](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/55ae582d3440371fbb21087284394ead8add4b94)), closes [#55](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/55)
+* align blur for top/left of screen, handle widget visibility changes ([22c18cb](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/22c18cb76d95182bb4058c9309dd6efe6ea716ba))
+* allow configuration override for tray elements ([858af9c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/858af9cb6c7ed6306219b2bc8c672fbb0970ea8c))
+* allow fallback to global settings for shadows ([431b3ac](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/431b3ac3e8ff7a4d452f9ed98d55de46480dac3f))
+* color scope switching and stuck panel padding ([c92df5a](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c92df5a73aa28345a649a623e20edeaa3088cb3f))
+* compensate weird margin of tray expand button ([620024f](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/620024f7cf44f1f28f7fbc3c9629288a2eb0002a))
+* correct widget margin for vertical panels ([eafb4ec](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/eafb4ec02dc3cac4c08275ed669a4d31c837ffb4))
+* enable/disable by clicking on widget ([c26d797](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c26d797c7bc773ec22adeca3811adb71908ba348))
+* fix broken unified background areas and update on visible ([36c4ea3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/36c4ea334039a321dbea1f38a0e11cb8bb45e4f2))
+* Floating input fields not updating correctly ([171f025](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/171f025476279cc7bdd8ebcdbd5cd494798a32c7))
+* forgot to push this for preset autoloading ([69275b3](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/69275b3131b74608658072166639f723862f3740))
+* keep original size of unified backgrounds to avoid offset in centered widgets ([9c0013d](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/9c0013da97fff612f7ff1b293124d2be960986be))
+* list of custom colors not loading ([ec7f68c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/ec7f68cf60eaf6871eafc28941631e9a132987a5))
+* properly update override configuration key name ([dcfed1c](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/dcfed1c2b3be03db954975143cf1382d1aa29296))
+* reload settings and selected tab when switching target element ([4b97002](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/4b97002f402ac9da1fe51dbe664f2a9d29bc2ff2))
+* restore default spacing in edit mode to stop plasma from freezing ([c25c6c4](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/c25c6c422ecc3b8599f1247df1333bb504f43c09)), closes [#79](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/79)
+* restore default widget margin if zero ([5bacb91](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/5bacb9150ab9a4b6d2683da6cbbcfba1c46b663d))
+* settings crash due to binding on buttons with custom colors ([3aa8c07](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/3aa8c0782bc419d0a22bd3b27c9a4f2061e644d3))
+* take screenshot and reload preview after saving preset ([27da6f7](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/27da6f7d043977f37110c105638b5e9300c70249))
+* update mask offset for Plasma 6.2 ([8a30292](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/8a3029270ab2fbca7bc4c9b9b4dcef616cfd2a2d))
+* use negative border width when disabled to avoid rendering issue ([911eff7](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/911eff786d51ac7f635ae4789710bcf18117ae61)), closes [#64](https://github.com/luisbocanegra/plasma-panel-colorizer/issues/64)
+* workaround korners bug on custom blur mask ([a0986ba](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/a0986ba551c33bf931ecc0ebc845eb7f0bfdda33))
+
+
+### Miscellaneous Chores
+
+* release 1.0.0 ([cc10ec0](https://github.com/luisbocanegra/plasma-panel-colorizer/commit/cc10ec0f9c484f564aea0d5cfb9047c860d412b0))
+
+## v0.5.2 Bugfix release (mostly)
+
+### Bug fixes
+
+- Fix transparent outline ugliness by drawing it inside background area
+- Restore now removes all customization https://github.com/luisbocanegra/plasma-panel-colorizer/issues/36
+- Fix panel background color set not saving https://github.com/luisbocanegra/plasma-panel-colorizer/issues/42
+- Fix broken system colors when switching color schemes https://github.com/luisbocanegra/plasma-panel-colorizer/issues/41
+- Fix blacklisted color
+- Fix default appearance restore
+- Ignore global enable from presets
+- Fix restoring hidden panel after global disable
+- Fix blacklisted color
+- Remove outline if background is disabled
+- Disable/hide controls based on category/global disabled status
+- Disable blacklist on global disable
+- Fix per widget margins layout & visibility
+
+### Improvements
+
+- Improve preset auto-loading - Allow loading a preset when a window is touching the panel https://github.com/luisbocanegra/plasma-panel-colorizer/issues/44
+- Split margin from background and move to separate Layout tab
+- **Don't apply any customization by default** https://github.com/luisbocanegra/plasma-panel-colorizer/issues/36
+
+### Other
+
+- Switch to RGBA for background opacity
+
+## v0.5.1 Bugfix release
+
+### Bug fixes
+
+- Added button to restore default block/margin/force recolor rules to fix rules not being deleted even after removing the matched widgets.
+
+    **Only required if you updated or have presets from version 0.4.0 or older**
+
+    Instructions to fix all broken presets have been provided [here](https://github.com/luisbocanegra/plasma-panel-colorizer?tab=readme-ov-file#fix-blacklistmarginforce-recolor-not-working-after-updating-to-version-050)
+
+- Fixed missing color options for panel background
+
+### Other
+
+- Added click support to increase/decrease value in floating text fields
+
+## v0.5.0 Text/icons shadow
+
+### New features
+
+- Configurable icons/text shadow
+- Added option to fix custom badges text
+- Allow picking any System (Kirigami.Theme) color
+
+### Bug fixes
+
+- Fixed contrast correction for some color modes
+- Fixed original panel opacity requiring custom background to work
+- Don't remove widget rules when they are not in the panel being configured
+
+### Other
+
+- Only show a single instance of each widget when configuring
+- Now available in AUR [plasma6-applets-panel-colorizer](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)
+
+## v0.4.0 Preset management & auto-loading
+
+### New features
+
+- Margins control to unify heights & extra margins for widgets
+- Contrast correction for all color modes
+- New widget background line mode
+- Include tray widgets in force icon color
+- Preset management
+- Support for app tray icon colorization
+- Preset auto-loading on floating panel / Maximized window
+- System color option for custom color modes
+- Spacing control
+- Widget background margin
+
+### Bug fixes
+
+- Allow blacklisting the System Tray widget
+- Fix unreadable BadgeOverlay
+- Fix colors not updating for window buttons widget
+- Fix color animation not working sometimes
+- Don't rotate colors in static mode
+
+### Other
+
+- Only reload window buttons widget when fg colors change
+- Use list of current widgets for blacklist/force/margins
+- Show last preset loaded
+
+## v0.3.0 Tons of new features
+
+### New features
+
+- Foreground (text & icons) customization
+- Apply fg color to Window Buttons widget
+- option to use a fixed custom panel side padding
+- Custom panel background color
+- Control real panel background opacity
+- Option to fully remove panel background
+- Add outline and shadow control
+- Force Kirigami.Icon color to specific plasmoids using isMask
+
+### Bug fixes
+
+- Listen for widgets added/removed from the panel
+- Don't change fg color in tray expanded representation
+- Reduce CPU usage only changing fg color for PlasmoidItem children
+- Fix notification applet appearing artifact
+- Don't change opacity when disabled
+- Continue after error caused by panel being edited
+
+### Other
+
+- Split configuration sections into tabs
+- Use color picker for color fields
+- Add mouse wheel area to floating text fields
+
+## v0.2.0 Hide widget
+
+- Added option to show the widget only when panel is in panel editing mode.
+- System tray position was removed since it wasn't working.
+
+## v0.1.0 First public release (beta)
+
+First usable release all features should work but expect some bugs here and there.
+
+Plasma 6 only but may be ported to plasma 5 if there's interest (PRs welcome)

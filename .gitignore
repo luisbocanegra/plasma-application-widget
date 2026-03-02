@@ -1,0 +1,11 @@
+build/
+
+# plasmoid
+*.plasmoid
+
+playground/
+.cache/
+*.mo
+.env
+compile_commands.json
+.vscode

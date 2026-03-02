@@ -1,0 +1,25 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "luisbocanegra17b@gmail.com",
+                "Name": "Luis Bocanegra"
+            },
+            {
+                "Name": "Sebastian Krzyszkowiak",
+                "Email": "dos@dosowisko.net"
+            }
+        ],
+        "BugReportUrl": "https://github.com/luisbocanegra/plasma-application-widget/issues",
+        "Category": "Utilities",
+        "Description": "Run applications as widgets",
+        "Icon": "window-symbolic",
+        "Id": "luisbocanegra.applicationwidget",
+        "License": "GPL-3.0",
+        "Name": "Application Widget",
+        "Version": "0.0.1",
+        "Website": "https://github.com/luisbocanegra/plasma-application-widget"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
