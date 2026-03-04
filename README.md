@@ -2,6 +2,8 @@
 
 Run arbitrary applications as widgets for your desktop/panel.
 
+<img src="https://raw.githubusercontent.com/luisbocanegra/plasma-application-widget/master/screenshots/demo.png">
+
 ## Installation
 
 Make sure you have QtWayland installed
