@@ -12,7 +12,7 @@ Item {
     Layout.preferredWidth: Kirigami.Units.gridUnit * 25
     Layout.preferredHeight: Kirigami.Units.gridUnit * 25
 
-    readonly property string socket: Plasmoid.configuration.socket || ("plasma-wallpaper-application-" + Math.random().toString(36).substring(2, 10))
+    readonly property string socket: Plasmoid.configuration.socket || ("plasma-application-widget-" + Math.random().toString(36).substring(2, 10))
     property real scale: Plasmoid.configuration.unscaled ? Screen.devicePixelRatio : 1.0
     property string command: Plasmoid.configuration.command ? Plasmoid.configuration.command : null
     property bool allowinput: Plasmoid.configuration.allowInput
