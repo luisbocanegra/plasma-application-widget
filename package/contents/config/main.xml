@@ -30,6 +30,10 @@
       <label>Use compact representation on the desktop</label>
       <default>false</default>
     </entry>
+    <entry name="icon" type="String">
+      <label>Icon for the widget</label>
+      <default>window-symbolic</default>
+    </entry>
   </group>
 
 </kcfg>
