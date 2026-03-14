@@ -7,7 +7,8 @@ import "./components/" as Components
 
 PlasmoidItem {
     id: main
-
+    property bool editMode: Plasmoid.containment.corona?.editMode ?? false
+    Plasmoid.backgroundHints: editMode ? PlasmaCore.Types.StandardBackground : Plasmoid.configuration.desktopWidgetBackground
     readonly property bool onDesktop: Plasmoid.location === PlasmaCore.Types.Floating
     readonly property bool preferCompact: Plasmoid.configuration.preferCompact
     Plasmoid.icon: Plasmoid.configuration.icon

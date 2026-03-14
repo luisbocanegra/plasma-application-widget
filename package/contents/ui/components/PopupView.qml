@@ -36,11 +36,6 @@ Item {
         }
     ]
 
-    Rectangle {
-        anchors.fill: parent
-        color: "black"
-    }
-
     Kirigami.InlineMessage {
         type: Kirigami.MessageType.Warning
         text: i18n("No window to show.")
