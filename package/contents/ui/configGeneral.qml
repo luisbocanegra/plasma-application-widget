@@ -53,10 +53,6 @@ KCM.SimpleKCM {
                     id: allowInput
                     text: i18n("Pass input events")
                 }
-
-                Kirigami.ContextualHelpButton {
-                    toolTipText: i18n("Input events (pointer & keyboard) can only be passed through the desktop wallpaper. This option is ineffective on the screen locker.")
-                }
             }
 
             CheckBox {
@@ -79,7 +75,7 @@ KCM.SimpleKCM {
                 }
 
                 Kirigami.ContextualHelpButton {
-                    toolTipText: i18n("Requires a reload to take effect. Don't use on the lock screen with multiple outputs.")
+                    toolTipText: i18n("Requires a reload to take effect.")
                 }
             }
 
@@ -105,7 +101,7 @@ KCM.SimpleKCM {
                 implicitHeight: previewFrame.height + Kirigami.Units.smallSpacing * 2
                 hoverEnabled: true
 
-                Accessible.name: i18nc("@action:button", "Change Application Launcher's icon")
+                Accessible.name: i18nc("@action:button", "Change widget icon")
                 Accessible.description: i18nc("@info:whatsthis", "Current icon is %1. Click to open menu to change the current icon or reset to the default icon.", root.cfg_icon)
                 Accessible.role: Accessible.ButtonMenu
 
@@ -144,7 +140,7 @@ KCM.SimpleKCM {
                     MenuItem {
                         text: i18nc("@item:inmenu Open icon chooser dialog", "Choose…")
                         icon.name: "document-open-folder"
-                        Accessible.description: i18nc("@info:whatsthis", "Choose an icon for Application Launcher")
+                        Accessible.description: i18nc("@info:whatsthis", "Choose an icon for the widget")
                         onClicked: iconDialog.open()
                     }
                     MenuItem {
