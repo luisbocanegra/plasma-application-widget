@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.0](https://github.com/luisbocanegra/plasma-application-widget/compare/v0.0.1...v0.1.0) (2026-03-14)
+
+
+### Features
+
+* add Spanish translation ([791ed02](https://github.com/luisbocanegra/plasma-application-widget/commit/791ed02f54cbac066cc11750d599f5ce19d67d5b))
+* configurable icon ([10669f6](https://github.com/luisbocanegra/plasma-application-widget/commit/10669f612985662b63a1a0625faf0c57298352d7))
+* desktop widget background transparency ([9687544](https://github.com/luisbocanegra/plasma-application-widget/commit/968754456cd6812d704f555bbe17efe6a5720c2e))
+
 ## [6.8.1](https://github.com/luisbocanegra/plasma-panel-colorizer/compare/v6.8.0...v6.8.1) (2026-02-14)
 
 
