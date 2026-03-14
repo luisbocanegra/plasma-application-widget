@@ -7,6 +7,7 @@ import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.kcmutils as KCM
 import org.kde.kirigami as Kirigami
 import org.kde.plasma.plasmoid
+import org.kde.plasma.core as PlasmaCore
 
 KCM.SimpleKCM {
     id: root
@@ -18,6 +19,7 @@ KCM.SimpleKCM {
     property alias cfg_fps: fps.value
     property alias cfg_preferCompact: preferCompact.checked
     property string cfg_icon: Plasmoid.configuration.icon
+    property alias cfg_desktopWidgetBackground: desktopWidgetBackgroundRadio.value
 
     property string socketText: cfg_socket
     ColumnLayout {
@@ -150,6 +152,35 @@ KCM.SimpleKCM {
                         icon.name: "edit-clear"
                         enabled: root.cfg_icon !== "window-symbolic"
                         onClicked: root.cfg_icon = "window-symbolic"
+                    }
+                }
+            }
+
+            RadioButton {
+                Kirigami.FormData.label: i18n("Desktop background:")
+                text: i18n("Default")
+                checked: desktopWidgetBackgroundRadio.value == value
+                readonly property int value: PlasmaCore.Types.StandardBackground
+                ButtonGroup.group: desktopWidgetBackgroundRadio
+            }
+            RadioButton {
+                text: i18n("Transparent")
+                checked: desktopWidgetBackgroundRadio.value == value
+                readonly property int value: PlasmaCore.Types.NoBackground
+                ButtonGroup.group: desktopWidgetBackgroundRadio
+            }
+            RadioButton {
+                text: i18n("Transparent with shadow")
+                checked: desktopWidgetBackgroundRadio.value == value
+                readonly property int value: PlasmaCore.Types.ShadowBackground
+                ButtonGroup.group: desktopWidgetBackgroundRadio
+            }
+            ButtonGroup {
+                id: desktopWidgetBackgroundRadio
+                property int value: PlasmaCore.Types.StandardBackground
+                onCheckedButtonChanged: {
+                    if (checkedButton) {
+                        value = checkedButton.value;
                     }
                 }
             }
