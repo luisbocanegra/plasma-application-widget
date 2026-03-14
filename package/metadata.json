@@ -18,7 +18,7 @@
         "Id": "luisbocanegra.applicationwidget",
         "License": "GPL-3.0",
         "Name": "Application Widget",
-        "Version": "0.0.1",
+        "Version": "0.1.0",
         "Website": "https://github.com/luisbocanegra/plasma-application-widget"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
