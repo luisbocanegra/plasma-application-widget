@@ -1,10 +1,23 @@
 #!/bin/sh
 
+set -e
+
+if [ "$(whoami)" = root ];
+then
+    echo "Please do not run this script as root or using sudo"
+    exit 1
+fi
+
 if [ -d "build" ]; then
     rm -rf build
 fi
 
-# Install widget for current user
-cmake -B build/plasmoid -S . -DINSTALL_PLASMOID=ON
-cmake --build build/plasmoid
-cmake --install build/plasmoid
+# install plugin
+cmake -B build -S .
+cmake --build build
+sudo cmake --install build
+
+# remove KDE Store / kpackagetool6 install so it doesn't override the system-wide one
+echo "Removing previous install (if exists) from $HOME/.local/share/plasma/plasmoids/"
+rm -r "$HOME/.local/share/plasma/plasmoids/luisbocanegra.applicationwidget/" 2>/dev/null || true
+echo "Done"

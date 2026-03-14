@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
-project("plasmoid-panel-colorizer")
-option(INSTALL_PLASMOID "Install plasmoid" OFF)
+project("plasma-application-widget")
+option(INSTALL_PLASMOID "Install plasmoid" ON)
 option(PACKAGE_PLASMOID "Package plasmoid" OFF)
 
 set(PROJECT_DEP_VERSION "6.0.0")
@@ -11,7 +11,14 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
-set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
+
+include(KDEInstallDirs)
+include(KDECMakeSettings)
+
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS
+    I18n
+)
 
 # Get id and version from metadata
 file(READ ${CMAKE_CURRENT_SOURCE_DIR}/package/metadata.json METADATA)
@@ -23,13 +30,20 @@ message("Version: ${CUR_VERSION}")
 if(INSTALL_PLASMOID)
     find_package(Plasma REQUIRED)
     plasma_install_package(package ${PLUGIN_ID})
+    add_subdirectory(translate)
 endif()
 
 if(PACKAGE_PLASMOID)
+    add_custom_target(translations ALL
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+        COMMAND ./bin/i18n compile
+        COMMENT "Compiling translations"
+    )
     set(PLASMOID_FILE "${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}-v${CUR_VERSION}.plasmoid")
     add_custom_target(plasmoid ALL
         COMMAND rm -rf "${PLASMOID_FILE}"
         COMMAND ${CMAKE_COMMAND} -E chdir ${CMAKE_CURRENT_SOURCE_DIR}/package zip -r ${PLASMOID_FILE} ./
         COMMENT "Generating ${PLASMOID_FILE}"
     )
+    add_dependencies(plasmoid translations)
 endif()

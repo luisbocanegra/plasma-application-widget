@@ -14,7 +14,7 @@ Make sure you have QtWayland installed
 The addon can be installed using kpackagetool6:
 
 ```sh
-kpackagetool6 -t Plasma/Applet -i package
+kpackagetool6 -t Plasma/Applet -i package/
 ```
 
 To upgrade, run it with `-u` instead of `-i`.
@@ -22,7 +22,7 @@ To upgrade, run it with `-u` instead of `-i`.
 To uninstall, run:
 
 ```sh
-kpackagetool6 -t Plasma/Applet -r net.dosowisko.PlasmaApplicationWallpaper
+kpackagetool6 -t Plasma/Applet -r luisbocanegra.applicationwidget
 ```
 
 ## Performance
@@ -36,4 +36,5 @@ QT_WAYLAND_HARDWARE_INTEGRATION=linux-dmabuf-unstable-v1
 
 ## Credits
 
-This project is based on [plasma-wallpaper-application](https://invent.kde.org/dos/plasma-wallpaper-application), I just adapted it to work as a widget.
+* This project is based on [plasma-wallpaper-application](https://invent.kde.org/dos/plasma-wallpaper-application), adapted to work as a widget.
+* [ccatterina's script](https://github.com/ccatterina) (with some modifications) to manage translations
