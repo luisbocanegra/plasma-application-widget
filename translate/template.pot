@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luisbocanegra.applicationwidget\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 21:55-0600\n"
+"POT-Creation-Date: 2026-03-14 06:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,47 +78,38 @@ msgstr ""
 msgid "Pass input events"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:58
-#, kde-format
-msgid ""
-"Input events (pointer & keyboard) can only be passed through the desktop "
-"wallpaper. This option is ineffective on the screen locker."
-msgstr ""
-
-#: package/contents/ui/configGeneral.qml:64
+#: package/contents/ui/configGeneral.qml:60
 #, kde-format
 msgid "Disable HiDPI scaling"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:70
+#: package/contents/ui/configGeneral.qml:66
 #, kde-format
 msgid "Use custom Wayland socket name"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:82
+#: package/contents/ui/configGeneral.qml:78
 #, kde-format
-msgid ""
-"Requires a reload to take effect. Don't use on the lock screen with multiple "
-"outputs."
+msgid "Requires a reload to take effect."
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:88
+#: package/contents/ui/configGeneral.qml:84
 #, kde-format
 msgid "Socket"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:103
+#: package/contents/ui/configGeneral.qml:99
 #, kde-format
 msgid "Icon:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:108
+#: package/contents/ui/configGeneral.qml:104
 #, kde-format
 msgctxt "@action:button"
-msgid "Change Application Launcher's icon"
+msgid "Change widget icon"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:109
+#: package/contents/ui/configGeneral.qml:105
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -126,46 +117,46 @@ msgid ""
 "to the default icon."
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:113
+#: package/contents/ui/configGeneral.qml:109
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Icon name is \"%1\""
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:145
+#: package/contents/ui/configGeneral.qml:141
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:147
+#: package/contents/ui/configGeneral.qml:143
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "Choose an icon for Application Launcher"
+msgid "Choose an icon for the widget"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:151
+#: package/contents/ui/configGeneral.qml:147
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Reset to default icon"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:160
+#: package/contents/ui/configGeneral.qml:156
 #, kde-format
 msgid "Desktop background:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:161
+#: package/contents/ui/configGeneral.qml:157
 #, kde-format
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:167
+#: package/contents/ui/configGeneral.qml:163
 #, kde-format
 msgid "Transparent"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:173
+#: package/contents/ui/configGeneral.qml:169
 #, kde-format
 msgid "Transparent with shadow"
 msgstr ""
