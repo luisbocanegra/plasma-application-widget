@@ -13,7 +13,7 @@ Run arbitrary applications as widgets for your desktop/panel.
 
 2. Install the widget
 
-    * From [KDE Store](https://store.kde.org/p/2355537)
+    * From [KDE Store](https://store.kde.org/p/2360856)
 
         Right click on the Panel > *Add or manage widgets* > *Add new...* > *Download new...* > Search for "**Application Widget**", install and add it to a Panel/Desktop.
 
