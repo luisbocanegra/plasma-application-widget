@@ -7,8 +7,6 @@ import org.kde.kirigami as Kirigami
 
 Item {
     id: root
-    Layout.minimumWidth: Kirigami.Units.gridUnit * 25
-    Layout.minimumHeight: Kirigami.Units.gridUnit * 25
     Layout.preferredWidth: Kirigami.Units.gridUnit * 25
     Layout.preferredHeight: Kirigami.Units.gridUnit * 25
 
