@@ -11,6 +11,7 @@ PlasmoidItem {
     Plasmoid.backgroundHints: editMode ? PlasmaCore.Types.StandardBackground : Plasmoid.configuration.desktopWidgetBackground
     readonly property bool onDesktop: Plasmoid.location === PlasmaCore.Types.Floating
     readonly property bool preferCompact: Plasmoid.configuration.preferCompact
+    readonly property bool inTray: Plasmoid.containmentDisplayHints & PlasmaCore.Types.ContainmentDrawsPlasmoidHeading
     Plasmoid.icon: Plasmoid.configuration.icon
 
     Component.onCompleted: {

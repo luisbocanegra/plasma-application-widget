@@ -50,6 +50,17 @@ Item {
             onTriggered: {
                 root.stopApplication();
             }
+        },
+        PlasmaCore.Action {
+            text: i18n("Keep dialog open")
+            icon.name: main.hideOnWindowDeactivate ? "window-pin-symbolic" : "window-unpin-symbolic"
+            onTriggered: {
+                main.hideOnWindowDeactivate = !main.hideOnWindowDeactivate;
+                if (main.hideOnWindowDeactivate) {
+                    main.expanded = !main.hideOnWindowDeactivate;
+                }
+            }
+            visible: (!main.inTray && !main.onDesktop) || (main.onDesktop && main.preferCompact)
         }
     ]
 
