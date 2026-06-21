@@ -1,9 +1,11 @@
 import QtQuick
-import org.kde.plasma.plasmoid
+import QtQuick.Controls as QQC2
 import QtQuick.Layouts
-import org.kde.plasma.core as PlasmaCore
-import org.kde.plasma.plasma5support as P5Support
 import org.kde.kirigami as Kirigami
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.extras as PlasmaExtras
+import org.kde.plasma.plasma5support as P5Support
+import org.kde.plasma.plasmoid
 
 Item {
     id: root
@@ -21,71 +23,119 @@ Item {
     property var toplevel: null // XdgToplevel
     property var process: null // QQmlPropertyMap
 
+    function restartApplication() {
+        stopApplication();
+        restartTimer.start();
+    }
+
+    function stopApplication() {
+        if (root.toplevel)
+            root.toplevel.xdgSurface.surface.client.close();
+        root.process = null;
+        root.enabled = false;
+    }
+
     Plasmoid.contextualActions: [
         PlasmaCore.Action {
             text: i18n("Restart background application")
             icon.name: "system-reboot"
+            onTriggered: {
+                root.restartApplication();
+            }
+        },
+        PlasmaCore.Action {
+            text: i18n("Stop background application")
+            icon.name: "process-stop-symbolic"
             enabled: root.enabled
             onTriggered: {
-                if (root.toplevel)
-                    root.toplevel.xdgSurface.surface.client.close();
-                root.enabled = false;
+                root.stopApplication();
             }
         }
     ]
 
-    Kirigami.InlineMessage {
-        type: Kirigami.MessageType.Warning
-        text: i18n("No window to show.")
-        width: 200
-        anchors.centerIn: parent
-        SequentialAnimation on visible {
-            PropertyAnimation {
-                to: false
-                duration: 0
+    ColumnLayout {
+        anchors.fill: parent
+        Item {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            visible: !root.enabled
+            PlasmaExtras.PlaceholderMessage {
+                anchors.centerIn: parent
+                anchors.margins: Kirigami.Units.gridUnit
+                text: i18n("Application is not running")
+                iconName: Plasmoid.icon || "window-symbolic"
+                helpfulAction: QQC2.Action {
+                    icon.name: "configure"
+                    text: i18n("Restart background application")
+
+                    onTriggered: {
+                        root.restartApplication();
+                    }
+                }
             }
-            PropertyAnimation {
-                to: false
-                duration: 5000
+        }
+        Kirigami.InlineMessage {
+            type: Kirigami.MessageType.Warning
+            text: i18n("No window to show.")
+            Layout.fillWidth: true
+            SequentialAnimation on visible {
+                PropertyAnimation {
+                    to: false
+                    duration: 0
+                }
+                PropertyAnimation {
+                    to: false
+                    duration: 5000
+                }
+                PropertyAnimation {
+                    to: true
+                    duration: 0
+                }
+                running: root.enabled && !root.toplevel && !root.process
             }
-            PropertyAnimation {
-                to: true
-                duration: 0
+        }
+
+        Kirigami.InlineMessage {
+            type: Kirigami.MessageType.Error
+            Layout.fillWidth: true
+            text: root.process ? (i18n("Process ended with exit code %1", root.process["exit code"]) + "\n\n" + root.process.stdout + root.process.stderr).trim() : ""
+            visible: root.enabled && !root.toplevel && root.process
+        }
+
+        Kirigami.InlineMessage {
+            type: Kirigami.MessageType.Error
+            Layout.fillWidth: true
+            text: i18n("Could not load the compositor. Is QtWayland.Compositor installed?")
+            visible: wayland.status == Loader.Error
+        }
+
+        Loader {
+            id: wayland
+            source: "wayland.qml"
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            visible: !!root.toplevel
+        }
+
+        Connections {
+            target: wayland.item
+            function onWidthChanged() {
+                root.updateWindowSize();
             }
-            running: root.enabled && !root.toplevel && !root.process
+            function onHeightChanged() {
+                root.updateWindowSize();
+            }
+        }
+
+        Item {
+            Layout.fillHeight: true
+            visible: !root.toplevel && root.enabled
         }
     }
 
-    Kirigami.InlineMessage {
-        type: Kirigami.MessageType.Error
-        width: 500
-        text: root.process ? (i18n("Process ended with exit code %1", root.process["exit code"]) + "\n\n" + root.process.stdout + root.process.stderr).trim() : ""
-        anchors.centerIn: parent
-        visible: root.enabled && !root.toplevel && root.process
-    }
-
-    Kirigami.InlineMessage {
-        type: Kirigami.MessageType.Error
-        width: 500
-        text: i18n("Could not load the compositor. Is QtWayland.Compositor installed?")
-        anchors.centerIn: parent
-        visible: wayland.status == Loader.Error
-    }
-
-    Loader {
-        id: wayland
-        source: "wayland.qml"
-        anchors.fill: parent
-    }
-
-    onWidthChanged: {
+    function updateWindowSize() {
         if (toplevel)
-            toplevel.sendFullscreen(Qt.size(root.width * scale, root.height * scale));
-    }
-
-    onHeightChanged: {
-        if (toplevel)
-            toplevel.sendFullscreen(Qt.size(root.width * scale, root.height * scale));
+            toplevel.sendFullscreen(Qt.size(wayland.width * root.scale, wayland.height * root.scale));
     }
 
     onCommandChanged: {
@@ -95,16 +145,14 @@ Item {
     }
 
     onScaleChanged: {
-        if (toplevel)
-            toplevel.xdgSurface.surface.client.close();
-        enabled = false;
+        restartApplication();
     }
 
     Timer {
+        id: restartTimer
+        running: false
         interval: 100
-        running: !enabled
         onTriggered: {
-            root.process = null;
             root.enabled = true;
         }
     }
