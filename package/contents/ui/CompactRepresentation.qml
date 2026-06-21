@@ -20,6 +20,7 @@ MouseArea {
         id: container
         height: compact.itemSize
         width: compact.itemSize
+        anchors.centerIn: parent
 
         Kirigami.Icon {
             anchors.centerIn: parent

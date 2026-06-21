@@ -21,5 +21,7 @@
         "Version": "0.1.0",
         "Website": "https://github.com/luisbocanegra/plasma-application-widget"
     },
-    "X-Plasma-API-Minimum-Version": "6.0"
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-NotificationArea": true,
+    "X-Plasma-NotificationAreaCategory": "ApplicationStatus"
 }
