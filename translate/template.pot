@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luisbocanegra.applicationwidget\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-14 06:01+0000\n"
+"POT-Creation-Date: 2026-06-22 01:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,94 +22,120 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: package/contents/ui/components/PopupView.qml:28
+#: package/contents/ui/components/ChooseApplicationDialog.qml:12
+#, kde-format
+msgid "No applications found."
+msgstr ""
+
+#: package/contents/ui/components/PopupView.qml:40
+#: package/contents/ui/components/PopupView.qml:80
 #, kde-format
 msgid "Restart background application"
 msgstr ""
 
-#: package/contents/ui/components/PopupView.qml:41
+#: package/contents/ui/components/PopupView.qml:47
+#, kde-format
+msgid "Stop background application"
+msgstr ""
+
+#: package/contents/ui/components/PopupView.qml:55
+#, kde-format
+msgid "Keep dialog open"
+msgstr ""
+
+#: package/contents/ui/components/PopupView.qml:76
+#, kde-format
+msgid "Application is not running"
+msgstr ""
+
+#: package/contents/ui/components/PopupView.qml:90
 #, kde-format
 msgid "No window to show."
 msgstr ""
 
-#: package/contents/ui/components/PopupView.qml:64
+#: package/contents/ui/components/PopupView.qml:112
 #, kde-format
 msgid "Process ended with exit code %1"
 msgstr ""
 
-#: package/contents/ui/components/PopupView.qml:72
+#: package/contents/ui/components/PopupView.qml:119
 #, kde-format
 msgid "Could not load the compositor. Is QtWayland.Compositor installed?"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:30
+#: package/contents/ui/configGeneral.qml:59
 #, kde-format
 msgid "Application to run:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:31
+#: package/contents/ui/configGeneral.qml:62
 #, kde-format
 msgid "Command"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:36
+#: package/contents/ui/configGeneral.qml:68
+#, kde-format
+msgid "Select an application"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:75
 #, kde-format
 msgid "Compact"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:41
+#: package/contents/ui/configGeneral.qml:80
 #, kde-format
 msgid "FPS limit:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:46
-#: package/contents/ui/configGeneral.qml:47
+#: package/contents/ui/configGeneral.qml:85
+#: package/contents/ui/configGeneral.qml:86
 #, kde-format
 msgid "off"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:51
+#: package/contents/ui/configGeneral.qml:90
 #, kde-format
 msgid "Advanced settings:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:54
+#: package/contents/ui/configGeneral.qml:93
 #, kde-format
 msgid "Pass input events"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:60
+#: package/contents/ui/configGeneral.qml:99
 #, kde-format
 msgid "Disable HiDPI scaling"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:66
+#: package/contents/ui/configGeneral.qml:105
 #, kde-format
 msgid "Use custom Wayland socket name"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:78
+#: package/contents/ui/configGeneral.qml:117
 #, kde-format
 msgid "Requires a reload to take effect."
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:84
+#: package/contents/ui/configGeneral.qml:123
 #, kde-format
 msgid "Socket"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:99
+#: package/contents/ui/configGeneral.qml:138
 #, kde-format
 msgid "Icon:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:104
+#: package/contents/ui/configGeneral.qml:143
 #, kde-format
 msgctxt "@action:button"
 msgid "Change widget icon"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:105
+#: package/contents/ui/configGeneral.qml:144
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -117,46 +143,46 @@ msgid ""
 "to the default icon."
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:109
+#: package/contents/ui/configGeneral.qml:148
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Icon name is \"%1\""
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:141
+#: package/contents/ui/configGeneral.qml:180
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:143
+#: package/contents/ui/configGeneral.qml:182
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose an icon for the widget"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:147
+#: package/contents/ui/configGeneral.qml:186
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Reset to default icon"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:156
+#: package/contents/ui/configGeneral.qml:195
 #, kde-format
 msgid "Desktop background:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:157
+#: package/contents/ui/configGeneral.qml:196
 #, kde-format
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:163
+#: package/contents/ui/configGeneral.qml:202
 #, kde-format
 msgid "Transparent"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:169
+#: package/contents/ui/configGeneral.qml:208
 #, kde-format
 msgid "Transparent with shadow"
 msgstr ""
