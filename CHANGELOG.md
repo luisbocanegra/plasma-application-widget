@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/luisbocanegra/plasma-application-widget/compare/v0.1.0...v0.2.0) (2026-06-22)
+
+
+### Features
+
+* add Dutch translation ([#7](https://github.com/luisbocanegra/plasma-application-widget/issues/7)) ([aae6f98](https://github.com/luisbocanegra/plasma-application-widget/commit/aae6f9861839354e85b6c43afeb93ea3e642b140))
+* add option to keep dialog open when widget is out of focus ([333e441](https://github.com/luisbocanegra/plasma-application-widget/commit/333e4412169ce0d0058fbb3e63484e61732b701c))
+* allow adding widget to System Tray ([43883f0](https://github.com/luisbocanegra/plasma-application-widget/commit/43883f0c1dd80ef3c2db961d2c635321607d5857))
+* allow to stop application ([28d9555](https://github.com/luisbocanegra/plasma-application-widget/commit/28d9555accae727d5116f66cc217e9efbafe9479))
+* remove minimum height and width limits ([61fcd3d](https://github.com/luisbocanegra/plasma-application-widget/commit/61fcd3d1bf0b144e59c51f352f08a3b7e4744da2))
+* select from installed applications ([780b698](https://github.com/luisbocanegra/plasma-application-widget/commit/780b6989ca3d836bb25955215b8543c600e4cee1))
+
 ## [0.1.0](https://github.com/luisbocanegra/plasma-application-widget/compare/v0.0.1...v0.1.0) (2026-03-14)
 
 
