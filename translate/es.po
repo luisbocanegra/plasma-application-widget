@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luisbocanegra.applicationwidget\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 23:53-0600\n"
+"POT-Creation-Date: 2026-06-22 01:54+0000\n"
 "PO-Revision-Date: 2026-03-13 23:56-0600\n"
 "Last-Translator: Luis Bocanegra <luisbocanegra17b@gmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -22,94 +22,120 @@ msgstr ""
 msgid "General"
 msgstr "General"
 
-#: package/contents/ui/components/PopupView.qml:28
+#: package/contents/ui/components/ChooseApplicationDialog.qml:12
+#, fuzzy, kde-format
+msgid "No applications found."
+msgstr "Aplicación a ejecutar:"
+
+#: package/contents/ui/components/PopupView.qml:40
+#: package/contents/ui/components/PopupView.qml:80
 #, kde-format
 msgid "Restart background application"
 msgstr "Reiniciar la aplicación en segundo plano"
 
-#: package/contents/ui/components/PopupView.qml:41
+#: package/contents/ui/components/PopupView.qml:47
+#, fuzzy, kde-format
+msgid "Stop background application"
+msgstr "Reiniciar la aplicación en segundo plano"
+
+#: package/contents/ui/components/PopupView.qml:55
+#, kde-format
+msgid "Keep dialog open"
+msgstr ""
+
+#: package/contents/ui/components/PopupView.qml:76
+#, fuzzy, kde-format
+msgid "Application is not running"
+msgstr "Aplicación a ejecutar:"
+
+#: package/contents/ui/components/PopupView.qml:90
 #, kde-format
 msgid "No window to show."
 msgstr "No hay ninguna ventana que mostrar."
 
-#: package/contents/ui/components/PopupView.qml:64
+#: package/contents/ui/components/PopupView.qml:112
 #, kde-format
 msgid "Process ended with exit code %1"
 msgstr "El proceso finalizó con el código de salida %1"
 
-#: package/contents/ui/components/PopupView.qml:72
+#: package/contents/ui/components/PopupView.qml:119
 #, kde-format
 msgid "Could not load the compositor. Is QtWayland.Compositor installed?"
 msgstr "No se pudo cargar el compositor. ¿Está instalado QtWayland.Compositor?"
 
-#: package/contents/ui/configGeneral.qml:30
+#: package/contents/ui/configGeneral.qml:59
 #, kde-format
 msgid "Application to run:"
 msgstr "Aplicación a ejecutar:"
 
-#: package/contents/ui/configGeneral.qml:31
+#: package/contents/ui/configGeneral.qml:62
 #, kde-format
 msgid "Command"
 msgstr "Comando"
 
-#: package/contents/ui/configGeneral.qml:36
+#: package/contents/ui/configGeneral.qml:68
+#, fuzzy, kde-format
+msgid "Select an application"
+msgstr "Reiniciar la aplicación en segundo plano"
+
+#: package/contents/ui/configGeneral.qml:75
 #, kde-format
 msgid "Compact"
 msgstr "Compacto"
 
-#: package/contents/ui/configGeneral.qml:41
+#: package/contents/ui/configGeneral.qml:80
 #, kde-format
 msgid "FPS limit:"
 msgstr "Límite de FPS:"
 
-#: package/contents/ui/configGeneral.qml:46
-#: package/contents/ui/configGeneral.qml:47
+#: package/contents/ui/configGeneral.qml:85
+#: package/contents/ui/configGeneral.qml:86
 #, kde-format
 msgid "off"
 msgstr "apagado"
 
-#: package/contents/ui/configGeneral.qml:51
+#: package/contents/ui/configGeneral.qml:90
 #, kde-format
 msgid "Advanced settings:"
 msgstr "Configuración avanzada:"
 
-#: package/contents/ui/configGeneral.qml:54
+#: package/contents/ui/configGeneral.qml:93
 #, kde-format
 msgid "Pass input events"
 msgstr "Pasar eventos de entrada"
 
-#: package/contents/ui/configGeneral.qml:60
+#: package/contents/ui/configGeneral.qml:99
 #, kde-format
 msgid "Disable HiDPI scaling"
 msgstr "Deshabilitar el escalado HiDPI"
 
-#: package/contents/ui/configGeneral.qml:66
+#: package/contents/ui/configGeneral.qml:105
 #, kde-format
 msgid "Use custom Wayland socket name"
 msgstr "Utilice un nombre de socket personalizado para Wayland"
 
-#: package/contents/ui/configGeneral.qml:78
+#: package/contents/ui/configGeneral.qml:117
 #, kde-format
 msgid "Requires a reload to take effect."
 msgstr "Requiere recargar la aplicación para que surta efecto."
 
-#: package/contents/ui/configGeneral.qml:84
+#: package/contents/ui/configGeneral.qml:123
 #, kde-format
 msgid "Socket"
 msgstr "Socket"
 
-#: package/contents/ui/configGeneral.qml:99
+#: package/contents/ui/configGeneral.qml:138
 #, kde-format
 msgid "Icon:"
 msgstr "Icono:"
 
-#: package/contents/ui/configGeneral.qml:104
+#: package/contents/ui/configGeneral.qml:143
 #, kde-format
 msgctxt "@action:button"
 msgid "Change widget icon"
 msgstr "Cambiar icono del widget"
 
-#: package/contents/ui/configGeneral.qml:105
+#: package/contents/ui/configGeneral.qml:144
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -119,46 +145,46 @@ msgstr ""
 "El icono actual es %1. Haga clic para abrir el menú y cambiar el icono "
 "actual o restablecerlo al icono predeterminado."
 
-#: package/contents/ui/configGeneral.qml:109
+#: package/contents/ui/configGeneral.qml:148
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Icon name is \"%1\""
 msgstr "El nombre del icono es \"%1\""
 
-#: package/contents/ui/configGeneral.qml:141
+#: package/contents/ui/configGeneral.qml:180
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
 msgstr "Elegir…"
 
-#: package/contents/ui/configGeneral.qml:143
+#: package/contents/ui/configGeneral.qml:182
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose an icon for the widget"
 msgstr "Elige un icono para el widget."
 
-#: package/contents/ui/configGeneral.qml:147
+#: package/contents/ui/configGeneral.qml:186
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Reset to default icon"
 msgstr "Restablecer al icono predeterminado"
 
-#: package/contents/ui/configGeneral.qml:156
+#: package/contents/ui/configGeneral.qml:195
 #, kde-format
 msgid "Desktop background:"
 msgstr "Fondo de escritorio:"
 
-#: package/contents/ui/configGeneral.qml:157
+#: package/contents/ui/configGeneral.qml:196
 #, kde-format
 msgid "Default"
 msgstr "Predeterminado"
 
-#: package/contents/ui/configGeneral.qml:163
+#: package/contents/ui/configGeneral.qml:202
 #, kde-format
 msgid "Transparent"
 msgstr "Transparente"
 
-#: package/contents/ui/configGeneral.qml:169
+#: package/contents/ui/configGeneral.qml:208
 #, kde-format
 msgid "Transparent with shadow"
 msgstr "Transparente con sombra"
