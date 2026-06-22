@@ -3,11 +3,12 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import org.kde.ksvg as KSvg
 import org.kde.iconthemes as KIconThemes
-import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.kcmutils as KCM
 import org.kde.kirigami as Kirigami
 import org.kde.plasma.plasmoid
 import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.plasma5support as Plasma5Support
+import "./components/" as Components
 
 KCM.SimpleKCM {
     id: root
@@ -22,13 +23,51 @@ KCM.SimpleKCM {
     property alias cfg_desktopWidgetBackground: desktopWidgetBackgroundRadio.value
 
     property string socketText: cfg_socket
+
+    Components.ChooseApplicationDialog {
+        id: dialog
+        onApplicationSelected: (de, name, icon) => {
+            console.log(de, name, icon);
+            executable.connectSource(`cat '${de}'`);
+            root.cfg_icon = icon;
+        }
+    }
+
+    Plasma5Support.DataSource {
+        id: executable
+        engine: "executable"
+        connectedSources: []
+        onNewData: (source, data) => {
+            const entryContents = data.stdout.trim().split("\n");
+            let inGroup = false;
+            for (let line of entryContents) {
+                if (!inGroup && line === "[Desktop Entry]") {
+                    inGroup = true;
+                }
+                if (inGroup && line.startsWith("Exec=")) {
+                    root.cfg_command = line.replace("Exec=", "").replace(/%[fFuUdDnNkvmc]/g, "").replace(/@@u.*?@@/g, "").trim();
+                    break;
+                }
+            }
+            disconnectSource(source);
+        }
+    }
+
     ColumnLayout {
-        // anchors.fill: parent
         Kirigami.FormLayout {
-            TextField {
-                id: command
+            RowLayout {
                 Kirigami.FormData.label: i18n("Application to run:")
-                placeholderText: i18n("Command")
+                TextField {
+                    id: command
+                    placeholderText: i18n("Command")
+                }
+                Button {
+                    onClicked: dialog.open()
+                    icon.name: "applications-all-symbolic"
+                    ToolTip {
+                        text: i18n("Select an application")
+                    }
+                }
             }
 
             CheckBox {
